@@ -1,0 +1,184 @@
+/* Estilos gerais do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Estilos do container principal do perfil */
+.perfil {
+    background-color: #fff;
+    width: 300px;
+    max-height: 1500px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 20px; /* Define o espaço interno entre o conteúdo do elemento e suas bordas. */
+}
+
+/* Estilos da imagem de perfil (avatar) */
+.perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Torna a imagem circular */
+}
+
+/* Gradiente de borda estilo Story Instagram */
+.avatar {
+    border: 4px solid transparent; /* borda transparente */
+    background: linear-gradient(white, white) padding-box, linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) border-box;
+}
+
+/* Nome do perfil (Gabriel Alves) */
+.nome {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0; /* Define a margem vertical (acima e abaixo) e a margem horizontal (esquerda e direita). */
+    color: #252525;
+}
+
+/* Estilos da seção de informações (posts, seguidores, seguindo) */
+.informacoes {
+    display: flex; /* Elementos lado a lado na horizontal */
+    justify-content: space-around; /* cria um espaço igual ao redor de cada item */
+    color: #333;
+    font-size: 15px;
+}
+
+/* Estilos para o container que agrupa os botões "seguindo" e "mensagem"*/
+.container {
+    display: flex; /* Elementos lado a lado na horizontal */
+    gap: 50px;
+    justify-content: center; /* centraliza dentro do flex */
+}
+
+/* Estilo para todos os botões */
+.perfil-acoes {
+    display: flex; /* Elementos lado a lado na horizontal */
+    justify-content: space-around; /* cria umespaço igual ao redor de cada item */
+    margin-top: 12px; /* Define o espaço acima do elemento em relação ao que está acima dele */
+    margin-bottom: 5%; /* Define o espaço abaixo do elemento em relação ao que está abaixo dele */
+}
+
+/* Estilo para todos os botões */
+.perfil-acoes button {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    height: 30px; /* Altura dos botões */
+    border-radius: 8px; /* Borda arredondada */
+    padding: 0 40px; /* Largura dos botões */
+}
+
+/* Estilo para o botão "Seguindo" */
+.botao-seguindo {
+    background-color: #f3f3f3;
+    color: #333;
+    border: none;
+}
+
+/* Estilo para o botão "Mensagem" */
+.botao-mensagem {
+    background-color: #f3f3f3;
+    color: #333;
+    border: none;
+}
+    
+/* Estilos para os ícones da barra de navegação Posts, Reels, Repost e Marcações*/
+.container {
+    display: flex; /* organiza lado a lado */
+    gap: 60px; /* espaço entre os grupos */
+    align-items: center;
+}
+
+/* Estilos para os ícones da barra de navegação */
+.container img {
+    width: auto;
+    height: 20px;
+    border-radius: 1px;
+}
+
+/* Estilo para a linha divisória */
+.linha {
+    width: 100%; /* largura */
+    border: none; /* remove borda padrão do hr */
+    border-top: 1px solid #d4d4d4;
+}
+
+/* Estilo para a imagem do primeiro post (phone) */
+.post1 img {
+    width: 100%; 
+    height:auto;
+    border-radius: 10px;
+}
+
+/* Barra de interação (curtir, comentar, compartilhar) Posts 1, 2 e 3 */
+.container2 {
+    display: flex; /* organiza lado a lado */
+    gap: 20px; /* espaço entre os grupos */
+    margin-top: 5px;
+    align-items: center;
+}
+
+/* Estilo para imagens (ícones) de interação de post */
+.container2 img {
+    width: auto;
+    height: 18px;
+    object-fit: contain; /* evita distorcer a proporção */
+    border-radius: 1px; /* borda arredondada */
+}
+
+/* Estilo para números de interação de post */
+.container2 span {
+    display: flex; /* ícone + número alinhados */
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Estilo para a imagem do segundo post (dog) */
+.post2 img {
+    width: 100%;
+    height:400%; /* altura */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Estilos para o container/estrutura de vídeo (post 3)*/
+.post3 {
+    width: 100%; 
+    display: block;
+    aspect-ratio: 4 / 5; /* retrato */
+    overflow: hidden;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* Estilos para o vídeo */
+.post3 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* imagem (frame) preenche a área do vídeo */
+    display: block; /* elemento se comporta como um bloco, ocupando toda a largura disponível */
+}
+
+/* Estilos do logo Meta */
+.meta img {
+    width: auto;
+    height: 20px;
+    margin-top: 30px;
+    border-radius: 1px;
+}
+
+/* Estilos do rodapé */
+.rodape {         
+    font-size: 13px;
+    color: #555;
+    line-height: 0.3; /* Define a altura da linha do texto */
+}
